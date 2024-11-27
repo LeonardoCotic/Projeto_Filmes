@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: auto;
+    background-color: black;
+    
+    
+}
+
+#container-header{
+    width: auto;
+    height: 15vh;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    overflow: hidden;
+    
+}
+#decoracao{
+    color: rgb(242, 90, 90);
+}
+.logo{
+    
+    height: 6vh;
+    width: 35vh;
+    font-size: 45px;
+    color: white;
+    margin-top: 3vh;
+    margin-left: 1vh;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover{
+    color: rgb(240, 39, 39);
+}
+.menu{
+   
+    width: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    height: 4vh;
+    
+    
+    
+}
+#botao-pesquisa{
+    background-color: black;
+    width:30vh ;
+    height: 3vh;
+    color: white;
+    margin-left: 6vh;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+
+input .pesquisa{
+    background-color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 3vh;
+    background-color: black;
+}
+#container-principal{
+    
+    height:70vh;
+    width: 95vh;
+    min-width: 30vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+}
+
+
+.top-center-botton:nth-child(1){
+    border: solid 1px black;
+    background-color: rgb(22, 21, 21);
+    height: 10vh;
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 40px;
+    color: white;
+    
+}
+.top-center-botton:nth-child(2){
+    background-color: black;
+    height: 50vh;
+    overflow: scroll;
+    padding: 2vh;
+    color: white;
+}
+
+.top-center-botton:nth-child(3){
+    border: solid 1px black;
+    height: 10vh;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+img{
+    margin-right: 1vh;
+    padding: 2px;
+    float: left;
+}
+
+ h4{
+    margin-left: 2vh;
+}
+h2{
+    margin-left: 1vh;
+}
+
+input{
+    padding: 10px;
+    margin-left: 60vh;
+    margin-top: -30vh;
+    border-radius: 10px;
+    background-color: rgb(240, 39, 39);
+    color: white;
+   
+}
+#botao{
+    margin-left: -50vh;
+    margin-top:5vh;
+}
+@media screen and (max-width:800px){
+    #container-principal{
+        height:80vh;
+        width: 75vh;
+       
+    }
+}
+@media screen and (max-width:700px){
+    #container-principal{
+        display: block;
+        height:100vh;
+        width: 50vh;
+        
+       
+    }
+}
+@media screen and (max-width:470px){
+    #container-principal{
+        display: block;
+        height:100vh;
+        width: 45vh;
+        
+       
+    }
+}
+@media screen and (max-width:400px){
+    #container-principal{
+        display: block;
+        height:100vh;
+        width: 40vh;
+        
+       
+    }
+    .logo{
+        font-size: 35px;
+    }
+}

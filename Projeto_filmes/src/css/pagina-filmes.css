@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    padding-left: 2vh;
+    
+}
+
+#container-header{
+    
+    height: 15vh;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+#decoracao{
+    color: rgb(242, 90, 90);
+}
+.logo{
+    
+    height: 6vh;
+    width: 35vh;
+    font-size: 45px;
+    color: white;
+    margin-top: 3vh;
+    margin-left: 1vh;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover{
+    color: rgb(240, 39, 39);
+}
+.menu{
+    
+    width: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 4vh;
+    
+    
+    
+}
+#botao-pesquisa{
+    background-color: black;
+    width:30vh ;
+    color: white;
+    margin-left: 6vh;
+}
+
+input .pesquisa{
+    background-color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+h2{
+    color: white;
+    margin-left: 3vh;
+}
+
+h4{
+    color: white;
+    margin-left: 1vh;
+    margin-top: -2vh;
+    padding: 15px;
+    margin-bottom: -3px;
+}
+
+p{
+   position:absolute;
+   padding-top:5vh ;
+   padding-left: 13vh;
+    font-size: 25px;
+    color: rgb(240, 39, 39);
+    text-align: center;
+}
+
+hr{
+    width: 20vh;
+    margin-top: 1vh;
+    margin-left: 4vh;
+}
+
+ img{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+img:hover{
+    opacity: 0.1;
+}
+input:hover{
+    scale: 1.08;
+}
+input{
+    margin-left: 20vh;
+    margin-top: 1vh;
+    padding: 5px;
+    background-color: rgb(240, 39, 39);
+    border-radius: 20px;
+     width: 9vh;
+    height: 3vh;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    
+    background-color: rgb(22, 21, 21);
+    padding-left: 1vh;
+    margin-top: 2vh;
+    min-width: 40vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+
+.container-separado{
+    
+    background-color: rgb(22, 21, 21);
+    padding-left: 1vh;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+
+.item{
+    
+    height: 35vh;
+    margin-top: 6px;
+    width: 30vh;
+    min-width: 30vh;
+    box-shadow: 3px 3px 3px white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1vh;
+}
+
+.item:hover{
+    scale: 1.02;
+}
+
+#rodape{
+    height: 15vh;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#id-pagina{
+    color: white;
+    margin-right: 20vh;
+    margin-left: 11vh;
+}
+#rodape .logo{
+    margin-left: 10vh;
+}
